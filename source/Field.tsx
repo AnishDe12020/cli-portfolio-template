@@ -11,7 +11,7 @@ const Field: FC<{ fieldKey: string; children: any }> = ({
 		children = '"' + children + '"';
 	}
 	return (
-		<Box>
+		<Box margin={0.5}>
 			<Text color="green">me</Text>
 			<Text color="white">.</Text>
 			<Text color="cyan">{fieldKey}</Text>

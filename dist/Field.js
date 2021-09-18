@@ -12,7 +12,7 @@ const Field = ({ fieldKey, children, }) => {
     else {
         children = '"' + children + '"';
     }
-    return (react_1.default.createElement(ink_1.Box, null,
+    return (react_1.default.createElement(ink_1.Box, { margin: 0.5 },
         react_1.default.createElement(ink_1.Text, { color: "green" }, "me"),
         react_1.default.createElement(ink_1.Text, { color: "white" }, "."),
         react_1.default.createElement(ink_1.Text, { color: "cyan" }, fieldKey),
