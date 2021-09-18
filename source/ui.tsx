@@ -1,11 +1,22 @@
-import React, {FC} from 'react';
-import {Text} from 'ink';
+import React, { FC } from "react";
+import Field from "./Field";
+import dataObj from "./data.json";
 
-const App: FC<{name?: string}> = ({name = 'Stranger'}) => (
-	<Text>
-		Hello, <Text color="green">{name}</Text>
-	</Text>
-);
+const App: FC = () => {
+	return (
+		<>
+			{Object.entries(dataObj).map(([key, value]) => (
+				<Field key={key} fieldKey={key}>
+					{value}
+				</Field>
+				// <>
+				// 	<Text>{key}</Text>
+				// 	<Text>{value}</Text>
+				// </>
+			))}
+		</>
+	);
+};
 
 module.exports = App;
 export default App;

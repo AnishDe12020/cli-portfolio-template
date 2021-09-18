@@ -4,7 +4,9 @@
 		"module": "commonjs",
 		"jsx": "react",
 		"esModuleInterop": true,
-		"outDir": "dist"
+		"outDir": "dist",
+		"resolveJsonModule": true,
+		"esModuleInterop": true
 	},
 	"include": ["source"]
 }
