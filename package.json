@@ -1,7 +1,11 @@
 {
 	"name": "anishde12020",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/AnishDe12020/cli-portfolio"
+	},
 	"bin": "dist/cli.js",
 	"engines": {
 		"node": ">=10"
