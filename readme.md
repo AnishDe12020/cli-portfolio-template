@@ -2,6 +2,13 @@
 
 This is a template repository that lets you create an `npx <yourName>` cli portfolio extremely quickly. It is using [React Ink](https://github.com/vadimdemedes/ink).
 
+# Demo
+
+
+https://user-images.githubusercontent.com/63192115/133922256-42d12246-9c8c-488a-a232-ddd730d25784.mp4
+
+
+
 # How to use this template
 ## Prequisities
 - A GitHub account
