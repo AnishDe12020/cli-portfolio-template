@@ -1,18 +1,12 @@
 {
-	"name": "anishde12020",
+	"name": "cli-portfolio-template",
 	"version": "1.5.1",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/AnishDe12020/cli-portfolio"
+		"url": ""
 	},
-	"keywords": [
-		"anish de",
-		"anish",
-		"anishde12020",
-		"AnishDe12020",
-		"npx anishde12020"
-	],
+	"keywords": [],
 	"bin": "dist/cli.js",
 	"engines": {
 		"node": ">=10"

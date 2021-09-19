@@ -1,9 +1,5 @@
-# anishde12020
+# CLI Portfolio Template
 
-This is a small NPM Package which displays information about me, Anish De on the terminal. I have used [React Ink](https://github.com/vadimdemedes/ink) to create this package.
+This is a template repository which lets you create a `npx <yourName>` cli portfolio extremely quickly. It is using [React Ink](https://github.com/vadimdemedes/ink).
 
-## How to run?
-
-```bash
-npx anishde12020
-```
+# How to use this template
