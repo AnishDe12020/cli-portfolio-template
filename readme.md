@@ -3,6 +3,11 @@
 This is a template repository that lets you create an `npx <yourName>` cli portfolio extremely quickly. It is using [React Ink](https://github.com/vadimdemedes/ink).
 
 # How to use this template
+## Prequisities
+- A GitHub account
+- A NPM account
+- A computer with NodeJS v10 or above and NPM installed (Note that NPM v5.2 or later is used for `npx`)
+
 ## Cloning the template
 Firstly, you need to click the green "Use this template" button on the top right corner
 ![image](https://user-images.githubusercontent.com/63192115/133920749-481488b6-2a25-4ad6-87a7-c70459dda88d.png)
@@ -76,6 +81,8 @@ npm publish --access=public
 ```
 
 That is it!!!
+
+Now you can run `npx <yourPackagename>` to see your cli-portfolio
 
 # Next Steps
 
