@@ -12,11 +12,6 @@ const cli = (0, meow_1.default)(`
 	Usage
 	  $ anishde12020
 
-	Options
-		--name  Your name
-
-	Examples
-	  $ anishde12020 --name=Jane
-	  Hello, Jane
+	Prints out details about me.
 `);
 (0, ink_1.render)(react_1.default.createElement(ui_1.default, cli.flags, process.stdout));

@@ -8,12 +8,7 @@ const cli = meow(`
 	Usage
 	  $ anishde12020
 
-	Options
-		--name  Your name
-
-	Examples
-	  $ anishde12020 --name=Jane
-	  Hello, Jane
+	Prints out details about me.
 `);
 
 render(React.createElement(App, cli.flags, process.stdout));
