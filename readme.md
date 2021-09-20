@@ -46,8 +46,10 @@ Next, go to the `package.json` file.
 - In the `url` field under repository, put your GitHub repository url.
 - You can also fill out the `keywords` field by adding keywords as strings in the array.
 
+We also need to edit the help command so go to `source/cli.tsx` and put in the package name in the field that says <package_name_here>
+
 That is it!!! 
-You are done with making your portfolio. Make sure you have NodeJS and NPM installed and then run `npm start` to see your CLI portfolio.
+You are done with making your portfolio. Make sure you have NodeJS and NPM installed and then run `npm start` (this is important to populate th resulting js files with the updated details) to see your CLI portfolio.
 Now you must publish the changes to GitHub and publish the package on the NPM registry.
 
 Note that you can also edit this `README.md` file.
