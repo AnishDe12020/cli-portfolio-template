@@ -5,8 +5,10 @@ import meow from "meow";
 import App from "./ui";
 
 const cli = meow(`
+	This CLI Portfolio was built with this template - https://github.com/AnishDe12020/cli-portfolio-template
+
 	Usage
-	  $ anishde12020
+	  $ <your_name_here>
 
 	Prints out details about me.
 `);

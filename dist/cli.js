@@ -9,8 +9,10 @@ const ink_1 = require("ink");
 const meow_1 = __importDefault(require("meow"));
 const ui_1 = __importDefault(require("./ui"));
 const cli = (0, meow_1.default)(`
+	This CLI Portfolio was built with this template - https://github.com/AnishDe12020/cli-portfolio-template
+
 	Usage
-	  $ anishde12020
+	  $ <your_name_here>
 
 	Prints out details about me.
 `);
